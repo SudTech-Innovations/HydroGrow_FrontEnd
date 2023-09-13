@@ -48,6 +48,7 @@ ng generate component pages/sensors
 ng generate component pages/planning
 ng generate component pages/users
 ng generate component pages/settings
+ng generate component pages/log-reg
 ```
 
 Providers

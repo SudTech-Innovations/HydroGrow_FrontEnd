@@ -20,6 +20,7 @@ import { PlantPipe } from './shared/plant.pipe';
 import { SensorPipe } from './shared/sensor.pipe';
 import { PlanningPipe } from './shared/planning.pipe';
 import { UserPipe } from './shared/user.pipe';
+import { LogRegComponent } from './pages/log-reg/log-reg.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { UserPipe } from './shared/user.pipe';
     PlantPipe,
     SensorPipe,
     PlanningPipe,
-    UserPipe
+    UserPipe,
+    LogRegComponent
   ],
   imports: [
     BrowserModule,
