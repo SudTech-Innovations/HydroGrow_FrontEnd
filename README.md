@@ -136,3 +136,9 @@ ng g component pages/users --module=users --type=Page
 ng generate module pages/settings
 ng g component pages/settings --module=settings --type=Page
 ```
+
+Modèles
+
+```
+ng generate class models/Plant
+```
