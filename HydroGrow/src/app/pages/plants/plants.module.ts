@@ -5,5 +5,6 @@ import { PlantsPage } from './plants.page';
 @NgModule({
   declarations: [PlantsPage],
   imports: [CommonModule],
+  exports: [PlantsPage],
 })
 export class PlantsModule {}
