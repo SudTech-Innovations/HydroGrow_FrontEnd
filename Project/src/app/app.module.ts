@@ -16,11 +16,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PlantComponent } from './shared/plant/plant.component';
 import { SensorComponent } from './shared/sensor/sensor.component';
 import { UserComponent } from './shared/user/user.component';
-import { PlantPipe } from './shared/plant.pipe';
-import { SensorPipe } from './shared/sensor.pipe';
-import { PlanningPipe } from './shared/planning.pipe';
-import { UserPipe } from './shared/user.pipe';
 import { LogRegComponent } from './pages/log-reg/log-reg.component';
+import { TestComponentComponent } from './shared/test-component/test-component.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +35,8 @@ import { LogRegComponent } from './pages/log-reg/log-reg.component';
     PlantComponent,
     SensorComponent,
     UserComponent,
-    PlantPipe,
-    SensorPipe,
-    PlanningPipe,
-    UserPipe,
-    LogRegComponent
+    LogRegComponent,
+    TestComponentComponent
   ],
   imports: [
     BrowserModule,
