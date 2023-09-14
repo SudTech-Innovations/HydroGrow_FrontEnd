@@ -142,3 +142,10 @@ Modèles
 ```
 ng generate class models/Plant
 ```
+
+Components partagés
+
+```
+ng generate component shared/plant --module=shared --type=Component
+ng generate component shared/plantlist --module=shared --type=Component
+```
