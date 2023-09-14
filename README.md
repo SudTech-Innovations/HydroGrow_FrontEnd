@@ -101,7 +101,7 @@ Création du module de partage
 ng generate module shared
 ```
 
-Pages
+Page d'accueil
 
 ```
 ng generate module pages/home
@@ -118,4 +118,21 @@ Pied de page
 
 ```
 ng generate component shared/footer --module=shared --type=Component
+```
+
+Autres pages
+
+```
+ng generate module pages/logreg
+ng g component pages/logreg --module=logreg --type=Page
+ng generate module pages/plants
+ng g component pages/plants --module=plants --type=Page
+ng generate module pages/sensors
+ng g component pages/sensors --module=sensors --type=Page
+ng generate module pages/planning
+ng g component pages/planning --module=planning --type=Page
+ng generate module pages/users
+ng g component pages/users --module=users --type=Page
+ng generate module pages/settings
+ng g component pages/settings --module=settings --type=Page
 ```
