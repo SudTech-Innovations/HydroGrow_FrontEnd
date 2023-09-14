@@ -100,3 +100,22 @@ Création du module de partage
 ```
 ng generate module shared
 ```
+
+Pages
+
+```
+ng generate module pages/home
+ng g component pages/home --module=home --type=Page
+```
+
+Barre de navigation
+
+```
+ng generate component shared/navbar --module=shared --type=Component
+```
+
+Pied de page
+
+```
+ng generate component shared/footer --module=shared --type=Component
+```
