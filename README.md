@@ -140,7 +140,7 @@ ng g component pages/settings --module=settings --type=Page
 Modèles
 
 ```
-ng generate class models/Plant
+ng generate interface models/plant
 ```
 
 Components partagés

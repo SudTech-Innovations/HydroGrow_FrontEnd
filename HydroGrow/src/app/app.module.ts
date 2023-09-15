@@ -19,7 +19,7 @@ import { SettingsModule } from './pages/settings/settings.module';
     AppRoutingModule,
     SharedModule,
     HomeModule,
-    PlantsModule,
+    // PlantsModule,
     SensorsModule,
     PlanningModule,
     UsersModule,
