@@ -3,11 +3,11 @@ export interface Plant {
   name: string;
   description: string;
   image: string;
-  temperature: string;
-  humidity: string;
-  light: string;
-  water: string;
-  nutrients: string;
-  ph: string;
-  ec: string;
+  temperature: GLfloat;
+  humidity: GLfloat;
+  light: GLfloat;
+  water: GLfloat;
+  nutrients: GLfloat;
+  ph: GLfloat;
+  ec: GLfloat;
 }

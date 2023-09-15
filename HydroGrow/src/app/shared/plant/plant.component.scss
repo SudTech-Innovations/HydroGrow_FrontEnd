@@ -1,0 +1,58 @@
+.section-plant {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.box-img {
+  width: 8em;
+  height: 8em;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.titre-plante {
+  width: 100%;
+}
+
+.description-plante {
+  width: 100%;
+}
+
+// rétrécir l'image pour qu'elle rentre dans la boite
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-slider {
+  width: 100%;
+  display: flex;
+}
+
+.titre-element {
+  font-weight: bold;
+  width: 50%;
+}
+
+.type {
+  width: 20%;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.JustSpace {
+  margin: 5em;
+}
