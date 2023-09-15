@@ -1,0 +1,72 @@
+// div {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100%;
+//   width: 100%;
+//   background-color: #fff;
+//   border-radius: 10px;
+//   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+//   margin: 10px;
+//   padding: 10px;
+//   font-family: "Roboto", sans-serif;
+//   font-size: 1.2rem;
+//   color: #000;
+//   transition: all 0.3s ease-in-out;
+//   &:hover {
+//     transform: scale(1.05);
+//     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+//   }
+//   .plant-image {
+//     width: 100%;
+//     height: 200px;
+//     border-radius: 10px;
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     margin-bottom: 10px;
+//   }
+//   .plant-name {
+//     font-weight: bold;
+//     margin-bottom: 10px;
+//   }
+//   .plant-type {
+//     margin-bottom: 10px;
+//   }
+//   .plant-date {
+//     margin-bottom: 10px;
+//   }
+//   .plant-status {
+//     margin-bottom: 10px;
+//   }
+//   .plant-actions {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     width: 100%;
+//     margin-bottom: 10px;
+//     .plant-action {
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: center;
+//       width: 100%;
+//       height: 40px;
+//       border-radius: 10px;
+//       background-color: #fff;
+//       border: 1px solid #000;
+//       font-weight: bold;
+//       font-size: 1rem;
+//       color: #000;
+//       transition: all 0.3s ease-in-out;
+//       &:hover {
+//         background-color: #000;
+//         color: #fff;
+//       }
+//       &:first-child {
+//         margin-right: 10px;
+//       }
+//     }
+//   }
+// }

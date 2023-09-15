@@ -8,36 +8,65 @@ import { Plant } from 'src/app/models/plant';
   styleUrls: ['./plantlist.component.scss'],
 })
 export class PlantlistComponent {
+  // Modèle de données pour les plantes
+  //   id, name, description, image, temperature, humidity, light, water, nutrients, ph, ec
+
   plants: Plant[] = [
     {
       id: 1,
-      name: 'Basil',
-      description:
-        'Basil is a culinary herb of the family Lamiaceae. It is also called the "king of herbs" and the "royal herb". The name "basil" comes from Greek βασιλικόν φυτόν, "royal/kingly plant".',
+      name: 'Salade',
+      description: 'Salade verte',
       image:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Basil-Basilico-Ocimum_basilicum-albahaca.jpg/440px-Basil-Basilico-Ocimum_basilicum-albahaca.jpg',
-      temperature: '18-25°C',
-      humidity: '40-60%',
-      light: '12-16 hours',
-      water: '2-3 times per week',
-      nutrients: '1.0-2.0 mS/cm',
-      ph: '5.5-6.5',
-      ec: '1.0-2.0 mS/cm',
+        'https://www.lesfruitsetlegumesfrais.com/_upload/cache/ressources/produits/salade/salade_frisee_640_420_fit.jpg',
+      temperature: '18°C',
+      humidity: '60%',
+      light: '12h',
+      water: '1L',
+      nutrients: '1L',
+      ph: '6.5',
+      ec: '1.5',
     },
     {
       id: 2,
-      name: 'Chives',
-      description:
-        'Chives is the common name of Allium schoenoprasum, an edible species of the Allium genus. Its close relatives include the garlic, shallot, leek, scallion, and Chinese onion.',
+      name: 'Tomate',
+      description: 'Tomate rouge',
       image:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Allium_schoenoprasum_1.JPG/440px-Allium_schoenoprasum_1.JPG',
-      temperature: '18-25°C',
-      humidity: '40-60%',
-      light: '12-16 hours',
-      water: '2-3 times per week',
-      nutrients: '1.0-2.0 mS/cm',
-      ph: '5.5-6.5',
-      ec: '1.0-2.0 mS/cm',
+        'https://www.lesfruitsetlegumesfrais.com/_upload/cache/ressources/produits/tomate/tomate_640_420_fit.jpg',
+      temperature: '20°C',
+      humidity: '70%',
+      light: '12h',
+      water: '1L',
+      nutrients: '1L',
+      ph: '6.5',
+      ec: '1.5',
+    },
+    {
+      id: 3,
+      name: 'Basilic',
+      description: 'Basilic vert',
+      image:
+        'https://www.lesfruitsetlegumesfrais.com/_upload/cache/ressources/produits/basilic/basilic_640_420_fit.jpg',
+      temperature: '20°C',
+      humidity: '70%',
+      light: '12h',
+      water: '1L',
+      nutrients: '1L',
+      ph: '6.5',
+      ec: '1.5',
+    },
+    {
+      id: 4,
+      name: 'Persil',
+      description: 'Persil vert',
+      image:
+        'https://www.lesfruitsetlegumesfrais.com/_upload/cache/ressources/produits/persil/persil_640_420_fit.jpg',
+      temperature: '20°C',
+      humidity: '70%',
+      light: '12h',
+      water: '1L',
+      nutrients: '1L',
+      ph: '6.5',
+      ec: '1.5',
     },
   ];
 }

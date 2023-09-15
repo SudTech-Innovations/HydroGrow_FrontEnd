@@ -1,3 +1,7 @@
-<div *ngFor="let plant of plants">
-    <app-plant [plant]="plant"></app-plant>
-</div>
+<section class="section-plant-list">
+    <div class="div-boucle-plant-list">
+        <div class="div-plant-list" *ngFor="let plant of plants">
+            <app-plant [plant]="plant"></app-plant>
+        </div>
+    </div>
+</section>
