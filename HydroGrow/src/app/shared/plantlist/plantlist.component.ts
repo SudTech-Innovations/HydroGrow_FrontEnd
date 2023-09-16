@@ -71,7 +71,8 @@ export class PlantlistComponent {
     {
       id: 5,
       name: 'Menthe',
-      description: 'La menthe verte, est une plante aromatique, de la famille des Lamiacées, originaire d\'Europe et d\'Asie occidentale, cultivée pour ses propriétés médicinales et aromatiques.',
+      description:
+        "La menthe verte, est une plante aromatique, de la famille des Lamiacées, originaire d'Europe et d'Asie occidentale, cultivée pour ses propriétés médicinales et aromatiques.",
       image:
         'https://imgs.search.brave.com/_t4X7LoRr7oGKTozMdMsIQ9aoKQdeOkE_-UgQLGV-AQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90M3Q4/azZ2OC5yb2NrZXRj/ZG4ubWUvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDQvbWVu/dGhlLWN1bHR1cmUu/anBn',
       temperature: 20,
