@@ -148,4 +148,9 @@ Components partagés
 ```
 ng generate component shared/plant --module=shared --type=Component
 ng generate component shared/plantlist --module=shared --type=Component
+ng generate component shared/calendrier --module=shared --type=Component
+ng generate component shared/evenement --module=shared --type=Component
 ```
+
+
+ng add @angular/material
