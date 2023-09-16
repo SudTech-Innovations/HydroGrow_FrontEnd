@@ -111,5 +111,19 @@ export class PlantlistComponent {
       ph: 6.5,
       ec: 1.5,
     },
+    {
+      id: 8,
+      name: 'Ciboulette',
+      description: 'Ciboulette verte',
+      image:
+        'https://imgs.search.brave.com/YD2M3vcvh8GSj243HOYFjaAacRlfps3MPLyLcDEzMjs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXJiZWF1ZC5u/ZXQvMjAxNS8wMy82/NDAvY2lib3VsZXR0/ZS1lbi1mbGV1cnMu/anBn',
+      temperature: 20,
+      humidity: 70,
+      light: 12,
+      water: 1,
+      nutrients: 1,
+      ph: 6.5,
+      ec: 1.5,
+    },
   ];
 }
