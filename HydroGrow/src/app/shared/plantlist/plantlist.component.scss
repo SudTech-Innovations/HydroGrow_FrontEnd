@@ -27,7 +27,9 @@ section {
 .div-plant-list {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  // width: 30%;
+  min-width: 25em;
+  max-width: 25em;
 }
 
 app-plant {

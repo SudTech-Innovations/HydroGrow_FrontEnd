@@ -68,5 +68,47 @@ export class PlantlistComponent {
       ph: 6.5,
       ec: 1.5,
     },
+    {
+      id: 5,
+      name: 'Menthe',
+      description: 'La menthe verte, est une plante aromatique, de la famille des Lamiacées, originaire d\'Europe et d\'Asie occidentale, cultivée pour ses propriétés médicinales et aromatiques.',
+      image:
+        'https://imgs.search.brave.com/_t4X7LoRr7oGKTozMdMsIQ9aoKQdeOkE_-UgQLGV-AQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90M3Q4/azZ2OC5yb2NrZXRj/ZG4ubWUvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDQvbWVu/dGhlLWN1bHR1cmUu/anBn',
+      temperature: 20,
+      humidity: 70,
+      light: 12,
+      water: 1,
+      nutrients: 1,
+      ph: 6.5,
+      ec: 1.5,
+    },
+    {
+      id: 6,
+      name: 'Romarin',
+      description: 'Romarin vert',
+      image:
+        'https://imgs.search.brave.com/19ZVLg635ta7mSvAc2rhHFnyd3cgtTd5mMdC6fXtnIY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yZXNp/emUucHJvZC5kb2Nm/ci5kb2MtbWVkaWEu/ZnIvcmNyb3AvNDUw/LDM0MCxjZW50ZXIt/bWlkZGxlL2V4dC9l/YWM0ZmYzNC9jb250/ZW50LzIwMjIvNy81/L2h1aWxlLWVzc2Vu/dGllbGxlLWRlLXJv/bWFyaW4tOTE5ZDBh/MWFkYmM2NzZmOS5q/cGVn',
+      temperature: 20,
+      humidity: 70,
+      light: 12,
+      water: 1,
+      nutrients: 1,
+      ph: 6.5,
+      ec: 1.5,
+    },
+    {
+      id: 7,
+      name: 'Thym',
+      description: 'Thym vert',
+      image:
+        'https://imgs.search.brave.com/CMyezok5Q3DK9ZR1jYr3qntCRfrOitzshlysRrf2faM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90M3Q4/azZ2OC5yb2NrZXRj/ZG4ubWUvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDgvdGh5/bS5qcGc',
+      temperature: 20,
+      humidity: 70,
+      light: 12,
+      water: 1,
+      nutrients: 1,
+      ph: 6.5,
+      ec: 1.5,
+    },
   ];
 }

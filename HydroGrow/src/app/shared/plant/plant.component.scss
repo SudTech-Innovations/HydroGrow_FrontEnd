@@ -3,14 +3,28 @@
 .section-plant {
   display: flex;
   flex-direction: row;
-  margin: 1em;
+  // margin: 1em;
+  width: 100%;
+}
+
+.section-plant-caracteristique {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2em;
 }
 
 // --------------------- Formatage de la photo ---------------------
 
 .box-img {
-  width: 8em;
-  height: 8em;
+  max-width: 30%;
+}
+
+.box-img img {
+  min-width: 8em;
+  min-height: 8em;
+  max-width: 8em;
+  max-height: 8em;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -20,28 +34,26 @@
 }
 
 // --------------------- Texte à coté de la photo ---------------------
+.inter-box-text {
+  min-width: 50%;
+  max-width: 70%;
+}
 
 .box-text {
   display: flex;
   flex-direction: column;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .titre-plante {
   width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .description-plante {
   width: 100%;
-}
-
-// --------------------- La photo de la plante ---------------------
-
-// rétrécir l'image pour qu'elle rentre dans la boite
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  margin: 0;
 }
 
 // --------------------- La barre de la plante ---------------------
@@ -75,4 +87,8 @@ input {
 
 .JustSpace {
   margin: 5em;
+}
+
+.MiniSpace {
+  margin: 2em;
 }
