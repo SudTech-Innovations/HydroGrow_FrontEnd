@@ -74,7 +74,7 @@
             <label for="water">Arrosage</label>
         </div>
         <div class="lign">
-            <input type="range" id="water" name="water" min=0 max=100 value="{{ plant.water }}" disabled>
+            <input type="range" id="water" name="water" min=0 max=10 value="{{ plant.water }}" disabled>
         </div>
         <div class="type">
             <span>{{ plant.water }}L</span>
@@ -90,7 +90,7 @@
             <label for="fertilizer">Engrais</label>
         </div>
         <div class="lign">
-            <input type="range" id="fertilizer" name="fertilizer" min=0 max=100 value="{{ plant.nutrients }}" disabled>
+            <input type="range" id="fertilizer" name="fertilizer" min=0 max=5 value="{{ plant.nutrients }}" disabled>
         </div>
         <div class="type">
             <span>{{ plant.nutrients }}ml</span>
@@ -122,7 +122,7 @@
             <label for="ec">EC</label>
         </div>
         <div class="lign">
-            <input type="range" id="ec" name="ec" min=0 max=100 value="{{ plant.ec }}" disabled>
+            <input type="range" id="ec" name="ec" min=0 max=10 value="{{ plant.ec }}" disabled>
         </div>
         <div class="type">
             <span>{{ plant.ec }}ppm</span>
