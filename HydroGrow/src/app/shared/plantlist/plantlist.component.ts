@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { PlantComponent } from '../plant/plant.component';
 import { Plant } from 'src/app/models/plant';
