@@ -38,13 +38,13 @@ La page paramètre utilisateur et paramètre de l'application pourront être fus
 
 Modèles
 
-```
+```txt
 ng generate class models/Plant
 ```
 
 Pages
 
-```
+```txt
 ng generate component pages/home
 ng generate component pages/login
 ng generate component pages/register
@@ -58,7 +58,7 @@ ng generate component pages/log-reg
 
 Providers
 
-```
+```txt
 ng generate service providers/auth
 ng generate service providers/plants
 ng generate service providers/sensors
@@ -69,7 +69,7 @@ ng generate service providers/settings
 
 Composants partagés
 
-```
+```txt
 ng generate component shared/navbar
 ng generate component shared/footer
 ng generate component shared/plant
@@ -80,7 +80,7 @@ ng generate component shared/user
 
 Pipe partagés
 
-```
+```txt
 ng generate pipe shared/pipes/plant
 ng generate pipe shared/sensor
 ng generate pipe shared/planning
@@ -91,38 +91,38 @@ ng generate pipe shared/user
 
 Commande de création de l'application
 
-```
+```txt
 ng new HydroGrow --skip-tests
 ```
 
 Création du module de partage
 
-```
+```txt
 ng generate module shared
 ```
 
 Page d'accueil
 
-```
+```txt
 ng generate module pages/home
 ng g component pages/home --module=home --type=Page
 ```
 
 Barre de navigation
 
-```
+```txt
 ng generate component shared/navbar --module=shared --type=Component
 ```
 
 Pied de page
 
-```
+```txt
 ng generate component shared/footer --module=shared --type=Component
 ```
 
 Autres pages
 
-```
+```txt
 ng generate module pages/logreg
 ng g component pages/logreg --module=logreg --type=Page
 ng generate module pages/plants
@@ -139,18 +139,17 @@ ng g component pages/settings --module=settings --type=Page
 
 Modèles
 
-```
+```txt
 ng generate interface models/plant
 ```
 
 Components partagés
 
-```
+```txt
 ng generate component shared/plant --module=shared --type=Component
 ng generate component shared/plantlist --module=shared --type=Component
 ng generate component shared/calendrier --module=shared --type=Component
 ng generate component shared/evenement --module=shared --type=Component
 ```
-
 
 ng add @angular/material
