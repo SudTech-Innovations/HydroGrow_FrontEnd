@@ -22,6 +22,33 @@ export default function PlantCalc() {
     setQuantityEng(0);
   };
 
+  // Validate input values
+  function validateInput(value) {
+    if (value < 0) {
+      return false;
+    }
+    return true;
+  }
+
+  // Input fields
+  const handleConcentrationEngChange = (event) => {
+    const value = event.target.value;
+    if (validateInput(value)) {
+      setConcentrationEng(value);
+    } else {
+      setConcentrationEng("");
+    }
+  };
+
+  const handleNeedsPlantChange = (event) => {
+    const value = event.target.value;
+    if (validateInput(value)) {
+      setNeedsPlant(value);
+    } else {
+      setNeedsPlant("");
+    }
+  };
+
   return (
     <div id="plantCalc">
       <h1>Calculateur d'engrais pour plantes</h1>
@@ -36,7 +63,7 @@ export default function PlantCalc() {
               type="number"
               id="concentrationEng"
               value={concentrationEng}
-              onChange={(e) => setConcentrationEng(e.target.value)}
+              onChange={handleConcentrationEngChange}
             />
           </div>
           <div className="form-group">
@@ -45,7 +72,7 @@ export default function PlantCalc() {
               type="number"
               id="needsPlant"
               value={needsPlant}
-              onChange={(e) => setNeedsPlant(e.target.value)}
+              onChange={handleNeedsPlantChange}
             />
           </div>
         </div>
