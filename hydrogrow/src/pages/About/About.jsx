@@ -1,5 +1,11 @@
 import React from "react";
 
+import PlantCalc from "../../components/Calculateur/PlantCalc";
+
 export default function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <PlantCalc />
+    </div>
+  );
 }
