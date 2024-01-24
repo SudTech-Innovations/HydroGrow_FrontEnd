@@ -1,0 +1,80 @@
+/* CSS */
+#plantCalc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+#plantCalc .form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column !important;
+    width: 45%;
+}
+
+.plantCalc-inputs,
+.plantCalc-output {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 100%;
+    align-items: center;
+}
+
+#plantCalc input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#plantCalc label {
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#plantCalc button {
+    width: 30%;
+    height: 3rem;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #ff6200;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#plantCalc button:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+#plantCalc button:active {
+    background-color: #000000;
+    color: #fff;
+}
