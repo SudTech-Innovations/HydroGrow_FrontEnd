@@ -1,0 +1,24 @@
+/* DEBUG */
+/* body {
+    background-color: red;
+} */
+
+/* _________________________________________________ CSS */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------- Colors */
+
+.cl-bar {
+    background-color: #e4e4e4;
+}
+
+.cl-bar p {
+    color: #000000;
+}
+
+/* ----------------------- Fonts */
