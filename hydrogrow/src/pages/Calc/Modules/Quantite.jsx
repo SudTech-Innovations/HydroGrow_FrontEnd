@@ -66,7 +66,7 @@ export default function Quantite() {
         <div className="result">
           <p>Quantité d'engrais {quantityEng.toFixed(2)} mg/L </p>
         </div>
-        <button onClick={resetValues}>Reset</button>
+        <button onClick={resetValues}>Réinitialiser</button>
       </div>
 
       {/* Pass state and functions as props to PlantCalc component */}
