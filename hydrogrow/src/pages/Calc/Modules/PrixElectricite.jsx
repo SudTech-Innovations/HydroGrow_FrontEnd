@@ -5,7 +5,7 @@ const PrixElectricite = () => {
   const [price, setPrice] = useState(defaultPrice);
   const [power, setPower] = useState(0);
   const [usageTime, setUsageTime] = useState(0);
-  const [electricityCost, setElectricityCost] = useState(0);
+  const [electricityCost, setElectricityCost] = useState("0.00");
 
   const calculateCost = () => {
     const cost = (power * usageTime * price) / 1000; // Coût en euros
