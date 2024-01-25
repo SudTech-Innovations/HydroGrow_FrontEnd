@@ -39,7 +39,7 @@ export default function Quantite() {
 
   return (
     <div>
-      <div id="plantCalc">
+      <div className="plantCalc">
         <h1>Calculateur d'engrais pour plantes</h1>
 
         <div className="form">
