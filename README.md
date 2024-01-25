@@ -2,9 +2,9 @@
 
 ## Description
 
-```text
-Copyrigth © 2023 SudTech-Innovation
-```
+HydroGrow est une application de gestion hydroponique pour assister n'importe quelle personne (débutante ou experte) dans sa culture.
+
+L'application est développé en ReactJs.
 
 ## Installation / Execution
 
