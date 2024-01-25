@@ -1,12 +1,18 @@
 /* CSS */
-#plantCalc {
+#calculateur {
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2em;
+}
+
+/* ---------- Modules */
+
+.plantCalc {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 1rem;
+    justify-content: space-around;
+    width: 45%;
     padding: 0 1rem;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -15,10 +21,10 @@
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
 
-#plantCalc .form {
+.plantCalc .form {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 90%;
 }
 
 .form-group {
@@ -37,7 +43,7 @@
     align-items: center;
 }
 
-#plantCalc input {
+.plantCalc input {
     margin: 0.5rem 0;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -47,13 +53,13 @@
     font-size: 1rem;
 }
 
-#plantCalc label {
+.plantCalc label {
     margin-bottom: 0.5rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
-#plantCalc button {
+.plantCalc button {
     width: 30%;
     height: 3rem;
     margin-right: 10%;
@@ -69,12 +75,12 @@
     cursor: pointer;
 }
 
-#plantCalc button:hover {
+.plantCalc button:hover {
     background-color: #ff0000;
     color: #fff;
 }
 
-#plantCalc button:active {
+.plantCalc button:active {
     background-color: #000000;
     color: #fff;
 }
