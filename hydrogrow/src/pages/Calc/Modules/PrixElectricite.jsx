@@ -18,6 +18,24 @@ const PrixElectricite = () => {
     setElectricityCost("0.00");
   };
 
+  const handlePowerChange = (e) => {
+    const value = parseFloat(e.target.value);
+    if (!isNaN(value) && value >= 0) {
+      setPower(value);
+    } else {
+      setPower(0);
+    }
+  };
+
+  const handleUsageTimeChange = (e) => {
+    const value = parseFloat(e.target.value);
+    if (!isNaN(value) && value >= 0) {
+      setUsageTime(value);
+    } else {
+      setUsageTime(0);
+    }
+  };
+
   return (
     <div className="module-container">
       <h1>Calculateur de coût électrique</h1>
@@ -25,7 +43,7 @@ const PrixElectricite = () => {
         <div className="form-group">
           <label htmlFor="price">Prix de l'électricité (€/kWh)</label>
           <input
-            type="float"
+            type="number"
             id="price"
             value={price}
             onChange={(e) => setPrice(parseFloat(e.target.value))}
@@ -38,7 +56,7 @@ const PrixElectricite = () => {
             type="number"
             id="power"
             value={power}
-            onChange={(e) => setPower(parseFloat(e.target.value))}
+            onChange={handlePowerChange}
           />
         </div>
 
@@ -48,7 +66,7 @@ const PrixElectricite = () => {
             type="number"
             id="usageTime"
             value={usageTime}
-            onChange={(e) => setUsageTime(parseFloat(e.target.value))}
+            onChange={handleUsageTimeChange}
           />
         </div>
       </div>
