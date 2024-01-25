@@ -64,7 +64,7 @@ export default function Quantite() {
       </div>
       <div className="module-output">
         <div className="result">
-          <p>Quantité d'engrais {quantityEng.toFixed(2)} m/L </p>
+          <p>Quantité d'engrais {quantityEng.toFixed(2)} mg/L </p>
         </div>
         <button onClick={resetValues}>Reset</button>
       </div>
