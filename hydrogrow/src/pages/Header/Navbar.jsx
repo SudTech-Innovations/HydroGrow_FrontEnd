@@ -13,7 +13,7 @@ export default function Navbar() {
       {/* Navbar du coté droit */}
       <div className="navbar-right">
         <a href="/">Accueil</a>
-        <a href="/about">A propos</a>
+        <a href="/calc">Calculateur</a>
       </div>
     </div>
   );
