@@ -14,7 +14,7 @@ const PrixElectricite = () => {
 
   return (
     <div className="module-container">
-      <h2>Calculateur de coût électrique</h2>
+      <h1>Calculateur de coût électrique</h1>
       <div className="module-inputs">
         <div className="form-group">
           <label htmlFor="price">Prix de l'électricité (€/kWh)</label>
