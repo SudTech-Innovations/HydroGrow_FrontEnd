@@ -1,15 +1,21 @@
 import React, { useState } from "react";
 
 const PrixElectricite = () => {
-  const defaultPrice = 0.207; // Prix par défaut en euros par kWh
+  const defaultPrice = 0.207;
   const [price, setPrice] = useState(defaultPrice);
   const [power, setPower] = useState(0);
   const [usageTime, setUsageTime] = useState(0);
   const [electricityCost, setElectricityCost] = useState("0.00");
 
   const calculateCost = () => {
-    const cost = (power * usageTime * price) / 1000; // Coût en euros
-    setElectricityCost(cost.toFixed(2)); // Fixer à deux décimales
+    const cost = (power * usageTime * price) / 1000;
+    setElectricityCost(cost.toFixed(2));
+  };
+
+  const resetValues = () => {
+    setPower(0);
+    setUsageTime(0);
+    setElectricityCost("0.00");
   };
 
   return (
@@ -51,6 +57,7 @@ const PrixElectricite = () => {
           <p>Coût électrique : {electricityCost} €</p>
         </div>
         <button onClick={calculateCost}>Calculer le coût</button>
+        <button onClick={resetValues}>Réinitialiser</button>
       </div>
     </div>
   );
