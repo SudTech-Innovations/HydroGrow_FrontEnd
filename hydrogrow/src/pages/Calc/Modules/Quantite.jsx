@@ -38,45 +38,43 @@ export default function Quantite() {
   };
 
   return (
-    <div>
-      <div className="plantCalc">
-        <h1>Calculateur d'engrais pour plantes</h1>
+    <div className="plantCalc">
+      <h1>Calculateur d'engrais pour plantes</h1>
 
-        <div className="form">
-          <div className="plantCalc-inputs">
-            <div className="form-group">
-              <label htmlFor="concentrationEng">
-                Concentration de l'engrais (% * 10)
-              </label>
-              <input
-                type="number"
-                id="concentrationEng"
-                value={concentrationEng}
-                onChange={handleConcentrationEngChange}
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="needsPlant">Besoins de la plante (mg/L)</label>
-              <input
-                type="number"
-                id="needsPlant"
-                value={needsPlant}
-                onChange={handleNeedsPlantChange}
-              />
-            </div>
+      <div className="form">
+        <div className="plantCalc-inputs">
+          <div className="form-group">
+            <label htmlFor="concentrationEng">
+              Concentration de l'engrais (% * 10)
+            </label>
+            <input
+              type="number"
+              id="concentrationEng"
+              value={concentrationEng}
+              onChange={handleConcentrationEngChange}
+            />
           </div>
-          <div className="plantCalc-output">
-            <div className="form-group">
-              <label htmlFor="quantityEng">Quantité d'engrais (mg/L)</label>
-              <input
-                type="number"
-                id="quantityEng"
-                value={quantityEng}
-                readOnly
-              />
-            </div>
-            <button onClick={resetValues}>Reset</button>
+          <div className="form-group">
+            <label htmlFor="needsPlant">Besoins de la plante (mg/L)</label>
+            <input
+              type="number"
+              id="needsPlant"
+              value={needsPlant}
+              onChange={handleNeedsPlantChange}
+            />
           </div>
+        </div>
+        <div className="plantCalc-output">
+          <div className="form-group">
+            <label htmlFor="quantityEng">Quantité d'engrais (mg/L)</label>
+            <input
+              type="number"
+              id="quantityEng"
+              value={quantityEng}
+              readOnly
+            />
+          </div>
+          <button onClick={resetValues}>Reset</button>
         </div>
       </div>
 
