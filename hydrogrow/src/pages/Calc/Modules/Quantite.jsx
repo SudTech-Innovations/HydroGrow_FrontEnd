@@ -63,9 +63,8 @@ export default function Quantite() {
         </div>
       </div>
       <div className="module-output">
-        <div className="form-group">
-          <label htmlFor="quantityEng">Quantité d'engrais (mg/L)</label>
-          <input type="number" id="quantityEng" value={quantityEng} readOnly />
+        <div className="result">
+          <p>Quantité d'engrais {quantityEng.toFixed(2)} m/L </p>
         </div>
         <button onClick={resetValues}>Reset</button>
       </div>
