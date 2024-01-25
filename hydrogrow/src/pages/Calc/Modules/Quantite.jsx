@@ -38,11 +38,11 @@ export default function Quantite() {
   };
 
   return (
-    <div className="plantCalc">
+    <div className="module-container">
       <h1>Calculateur d'engrais pour plantes</h1>
 
       <div className="form">
-        <div className="plantCalc-inputs">
+        <div className="module-inputs">
           <div className="form-group">
             <label htmlFor="concentrationEng">
               Concentration de l'engrais (% * 10)
@@ -64,7 +64,7 @@ export default function Quantite() {
             />
           </div>
         </div>
-        <div className="plantCalc-output">
+        <div className="module-output">
           <div className="form-group">
             <label htmlFor="quantityEng">Quantité d'engrais (mg/L)</label>
             <input
