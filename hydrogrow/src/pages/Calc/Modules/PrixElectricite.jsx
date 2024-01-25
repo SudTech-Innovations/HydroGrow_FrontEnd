@@ -19,7 +19,7 @@ const PrixElectricite = () => {
         <div className="form-group">
           <label htmlFor="price">Prix de l'électricité (€/kWh)</label>
           <input
-            type="number"
+            type="float"
             id="price"
             value={price}
             onChange={(e) => setPrice(parseFloat(e.target.value))}
