@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const PrixElectricite = () => {
-  const defaultPrice = 0.207;
+  const defaultPrice = 0.2267;
   const [price, setPrice] = useState(defaultPrice);
-  const [power, setPower] = useState(0);
-  const [usageTime, setUsageTime] = useState(0);
+  const [power, setPower] = useState("");
+  const [usageTime, setUsageTime] = useState("");
   const [electricityCost, setElectricityCost] = useState("0.00");
 
   const calculateCost = () => {
@@ -13,17 +13,30 @@ const PrixElectricite = () => {
   };
 
   const resetValues = () => {
-    setPower(0);
-    setUsageTime(0);
+    setPower("");
+    setUsageTime("");
     setElectricityCost("0.00");
+  };
+
+  const handlePriceChange = (e) => {
+    const value = parseFloat(e.target.value);
+    if (!isNaN(value) && value >= 0) {
+      setPrice(value);
+      calculateCost();
+    } else {
+      setPrice(0);
+      calculateCost();
+    }
   };
 
   const handlePowerChange = (e) => {
     const value = parseFloat(e.target.value);
     if (!isNaN(value) && value >= 0) {
       setPower(value);
+      calculateCost();
     } else {
       setPower(0);
+      calculateCost();
     }
   };
 
@@ -31,8 +44,10 @@ const PrixElectricite = () => {
     const value = parseFloat(e.target.value);
     if (!isNaN(value) && value >= 0) {
       setUsageTime(value);
+      calculateCost();
     } else {
       setUsageTime(0);
+      calculateCost();
     }
   };
 
@@ -46,7 +61,7 @@ const PrixElectricite = () => {
             type="number"
             id="price"
             value={price}
-            onChange={(e) => setPrice(parseFloat(e.target.value))}
+            onChange={handlePriceChange}
           />
         </div>
 
@@ -74,7 +89,6 @@ const PrixElectricite = () => {
         <div className="result">
           <p>Coût électrique : {electricityCost} €</p>
         </div>
-        <button onClick={calculateCost}>Calculer le coût</button>
         <button onClick={resetValues}>Réinitialiser</button>
       </div>
     </div>
